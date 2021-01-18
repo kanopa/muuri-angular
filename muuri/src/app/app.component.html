@@ -1,0 +1,5 @@
+<cdk-virtual-scroll-viewport itemSize="150" class="example-viewport" >
+  <div class="grid-item"  *cdkVirtualFor="let item of notes">
+    <app-note [note]="item" class="note"></app-note>
+  </div>
+</cdk-virtual-scroll-viewport>
