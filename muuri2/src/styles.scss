@@ -55,5 +55,9 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .cdk-virtual-scroll-content-wrapper {
-    height: 100% !important;
+    height: 100%;
+}
+
+.scrollable-content {
+  height: 100% !important;
 }

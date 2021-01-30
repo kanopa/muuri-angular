@@ -1,0 +1,15 @@
+<ng-scrollbar #scrollbarRef
+  appearance="compact"
+  [autoHeightDisabled]="true"
+  [autoWidthDisabled]="true"
+  [sensorDisabled]="true">
+    <virtual-scroller  #scroll 
+      class="grid"
+      [items]="notes" 
+      [parentScroll]="scrollbarRef.nativeElement"
+      [enableUnequalChildrenSizes]="true">
+      <div class="grid-item"  *ngFor="let item of scroll.viewPortItems">
+        <app-note [note]="item" class="note"></app-note>
+      </div>
+    </virtual-scroller>
+  </ng-scrollbar>

@@ -1,5 +1,5 @@
 {
-  "name": "muuri1",
+  "name": "muuri2",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -13,18 +13,17 @@
   "dependencies": {
     "@angular/animations": "~11.0.4",
     "@angular/cdk": "^11.1.1",
-    "@angular/cdk-experimental": "^11.1.1",
     "@angular/common": "~11.0.4",
     "@angular/compiler": "~11.0.4",
     "@angular/core": "~11.0.4",
     "@angular/forms": "~11.0.4",
-    "@angular/material": "^11.0.4",
+    "@angular/material": "^11.1.1",
     "@angular/platform-browser": "~11.0.4",
     "@angular/platform-browser-dynamic": "~11.0.4",
     "@angular/router": "~11.0.4",
     "muuri": "^0.9.3",
-    "ngx-scroll-event": "^2.0.2",
-    "ngx-scrollbar": "^7.5.3",
+    "ngx-scrollbar": "^7.5.4",
+    "ngx-virtual-scroller": "^4.0.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
